@@ -1,7 +1,7 @@
 <?php
 
 // Define some constants
-define( "RECIPIENT_NAME", "CLINCE JOSHY" ); //UPDATE THIS TO YOUR NAME
+define( "RECIPIENT_NAME", "CLINCe" ); //UPDATE THIS TO YOUR NAME
 define( "RECIPIENT_EMAIL", "clincepro@gmail.com" ); //UPDATE THIS TO YOUR EMAIL ID
 define( "EMAIL_SUBJECT", "test123" ); //UPDATE THIS TO YOUR SUBJECT
 
