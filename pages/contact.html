@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Agency</title>
+    <title>The Agency / Contact</title>
     <meta charset='utf-8'>
     <meta content='Description' name='description'>
     <meta content='1 day' name='revisit-after'>
@@ -10,77 +10,93 @@
     <link href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic' rel='stylesheet'>
-    <link href='stylesheets/style.css' media='screen' rel='stylesheet'>
+    <link href='../stylesheets/style.css' media='screen' rel='stylesheet'>
     <!--[if lt IE 9]>
-    <script src="javascripts/html5shiv.js" type="text/javascript"></script>
-    <script src="javascripts/respond.min.js" type="text/javascript"></script>
+    <script src="../javascripts/html5shiv.js" type="text/javascript"></script>
+    <script src="../javascripts/respond.min.js" type="text/javascript"></script>
     <![endif]-->
   </head>
   <body>
-    <div class='overlay dark'>
-      <img alt='' class='centered' src='http://placehold.it/1024x768'>
-      <a href='#'>
-        <span class='fa fa-times'></span>
-      </a>
-    </div>
-    <section class='dark trans text-center'>
+    <section class='text-center white trans'>
       <img alt='Home' class='fs faded' src='http://placehold.it/1280x800'>
-      <div class='centered medium'>
-        <h1>
-          The Agency
+      <div class='centered'>
+        <h1 class='social-icons'>
+          <a href='#'>
+            <div class='fa fa-twitter'></div>
+          </a>
+          <a href='#'>
+            <div class='fa fa-facebook'></div>
+          </a>
+          <a href='#contact'>
+            <div class='fa fa-envelope'></div>
+          </a>
+          <a href='#'>
+            <div class='fa fa-dribbble'></div>
+          </a>
+          <a href='#'>
+            <div class='fa fa-instagram'></div>
+          </a>
         </h1>
-        <p>
-          A Professional Agency HTML5 Template
-        </p>
-        <a class='icon' href='#'>
-          <span>
-            Purchase
-          </span>
-          <div class='glyphicon glyphicon-shopping-cart'></div>
-        </a>
       </div>
     </section>
-    <nav class='dark' data-spy='affix' id='main'>
+    <nav data-spy='affix' id='main'>
       <div class='logo'>
         <span class='glyphicon glyphicon-flash'></span>
         The Agency
       </div>
-      <a class='icon pull-right' href='pages/contact.html'>
+      <a class='icon pull-right' href='../pages/contact.html'>
         <span class='fa fa-envelope-o'></span>
       </a>
       <a class='icon toggle-menu pull-right' href='#'>
         <span class='fa fa-bars'></span>
       </a>
       <ul><li>
-          <a class='home active' href='#'>
+          <a class='home' href='../'>
             Home
           </a>
         </li><li>
-          <a class='about' href='pages/about.html'>
+          <a class='about' href='../pages/about.html'>
             About
           </a>
         </li><li>
-          <a class='projects' href='pages/projects.html'>
+          <a class='projects' href='../pages/projects.html'>
             Projects
           </a>
         </li><li>
-          <a class='services' href='pages/services.html'>
+          <a class='services' href='../pages/services.html'>
             Services
           </a>
         </li><li>
-          <a class='blog' href='pages/blog.html'>
+          <a class='blog' href='../pages/blog.html'>
             Blog
           </a>
         </li></ul>
     </nav>
-    <section class='text-center dark' id='about'>
-      <div class='centered medium'>
-        <h2>
-          About
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu justo sed nisl placerat fermentum. Suspendisse egestas libero non condimentum dictum. Quisque vulputate turpis id massa tempus, id porttitor nisi pellentesque. Mauris laoreet erat non neque venenatis mattis.
-        </p>
+    <section class='white trans small' id='contact'>
+      <div class='row'>
+        <div class='col-md-6 col-md-offset-3'>
+          <h2 class='text-center'>
+            E-mail us
+          </h2>
+          <form action='../php/email.php' id='form' name='form'>
+            <div class='form-group'>
+              <input class='form-control' id='name' name='name' placeholder='Name' type='text'>
+              <span class='glyphicon glyphicon-remove form-control-feedback'></span>
+            </div>
+            <div class='form-group'>
+              <input class='form-control' id='email' name='email' placeholder='E-mail' type='text'>
+              <span class='glyphicon glyphicon-remove form-control-feedback'></span>
+            </div>
+            <div class='form-group'>
+              <input class='form-control' id='phone' name='phone' placeholder='Phone' type='text'>
+            </div>
+            <div class='form-group'>
+              <textarea class='form-control' id='message' name='message' placeholder='Message'></textarea>
+              <span class='glyphicon glyphicon-remove form-control-feedback'></span>
+            </div>
+            <input class='form-control' id='send' type='submit' value='Send'>
+          </form>
+        </div>
       </div>
     </section>
     <section class='dark' id='footer'>
@@ -192,18 +208,18 @@
       </div>
     </section>
     <!-- jQuery -->
-    <script src="javascripts/jquery.min.js" type="text/javascript"></script>
+    <script src="../javascripts/jquery.min.js" type="text/javascript"></script>
     <!-- Bootstrap JS -->
-    <script src="javascripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../javascripts/bootstrap.min.js" type="text/javascript"></script>
     <!-- Modernizr -->
-    <script src="javascripts/modernizr.js" type="text/javascript"></script>
+    <script src="../javascripts/modernizr.js" type="text/javascript"></script>
     <!-- Waypoints -->
-    <script src="javascripts/waypoints.min.js" type="text/javascript"></script>
+    <script src="../javascripts/waypoints.min.js" type="text/javascript"></script>
     <!-- Perfect Scrollbar -->
-    <script src="javascripts/ps.js" type="text/javascript"></script>
+    <script src="../javascripts/ps.js" type="text/javascript"></script>
     <!-- Contactform -->
-    <script src="javascripts/validation.js" type="text/javascript"></script>
+    <script src="../javascripts/validation.js" type="text/javascript"></script>
     <!-- Functions -->
-    <script src="javascripts/functions.js" type="text/javascript"></script>
+    <script src="../javascripts/functions.js" type="text/javascript"></script>
   </body>
 </html>
