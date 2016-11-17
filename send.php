@@ -1,9 +1,9 @@
 <?php
-$to = "clincepro@gmail.com";
-$subject = "My subject";
-$txt = "Hello world!";
-$headers = "From: webmaster@example.com" . "\r\n";
+$to=$_POST['to'];
+$subject=$_POST['subject'];
+$from=$_POST['from'];
+$txt=$_POST['content'];
+$headers = "From: xyz@anaon.com" . "\r\n";
 
 mail($to,$subject,$txt,$headers);
 ?>
-
