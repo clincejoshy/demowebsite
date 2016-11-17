@@ -1,9 +1,8 @@
 <?php
-$to=$_POST['to'];
-$subject=$_POST['subject'];
-$from=$_POST['from'];
-$txt=$_POST['content'];
+$to = "somebody@example.com";
+$subject = "My subject";
+$txt = "Hello world!";
 $headers = "From: sreerag939@gmail.com";
-
 mail($to,$subject,$txt,$headers);
 ?>
+
