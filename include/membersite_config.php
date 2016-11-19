@@ -14,8 +14,8 @@ $fgmembersite->SetAdminEmail('clincepro@gmail.com');
 //note that the script will create the table (for example, fgusers in this case)
 //by itself on submitting register.php for the first time
 $fgmembersite->InitDB(/*hostname*/'localhost',
-                      /*username*/'clince',
-                      /*password*/'joshy',
+                    /*username*/'prasanth',
+                      /*password*/'p',
                       /*database name*/'testdb',
                       /*table name*/'fgusers3');
 
