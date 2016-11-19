@@ -13,10 +13,10 @@ $fgmembersite->SetAdminEmail('clincepro@gmail.com');
 //hostname, user name, password, database name and table name
 //note that the script will create the table (for example, fgusers in this case)
 //by itself on submitting register.php for the first time
-$fgmembersite->InitDB(/*hostname*/'localhost',
-                    /*username*/'prasanth',
-                      /*password*/'p',
-                      /*database name*/'testdb',
+$fgmembersite->InitDB(/*hostname*/'mysql.hostinger.co.uk',
+                    /*username*/'u822806530_clinc',
+                      /*password*/'qwerty',
+                      /*database name*/'u822806530_db1',
                       /*table name*/'fgusers3');
 
 //For better security. Get a random string from this link: http://tinyurl.com/randstr
