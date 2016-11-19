@@ -4,7 +4,7 @@ require_once("./include/fg_membersite.php");
 $fgmembersite = new FGMembersite();
 
 //Provide your site name here
-$fgmembersite->clince('user11.com');
+$fgmembersite->SetWebsiteName('clincepics.16mb.com');
 
 //Provide the email address where you want to get notifications
 $fgmembersite->SetAdminEmail('clincepro@gmail.com');
