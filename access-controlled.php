@@ -13,6 +13,19 @@ if(!$fgmembersite->CheckLogin())
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title>An Access Controlled Page</title>
       <link rel="STYLESHEET" type="text/css" href="style/fg_membersite.css">
+	  
+<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBn3RPuMf0blKkFr71uXm-tAgVXU22YWRw",
+    authDomain: "xamweb-3c4fa.firebaseapp.com",
+    databaseURL: "https://xamweb-3c4fa.firebaseio.com",
+    storageBucket: "xamweb-3c4fa.appspot.com",
+    messagingSenderId: "253878603066"
+  };
+  firebase.initializeApp(config);
+</script>
 </head>
 <body>
 <div id='fg_membersite_content'>
